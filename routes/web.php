@@ -43,6 +43,10 @@ Route::post('/logout', function () {
     return redirect()->route('login');
 })->name('logout')->middleware('auth');
 
+Route::get('/register/admin/admin/register', \App\Http\Livewire\Auth\AdminRegisterPage::class)
+    ->name('register.admin')
+    ->middleware('guest');
+
 /*
 |--------------------------------------------------------------------------
 | Frontend
