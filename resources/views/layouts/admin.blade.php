@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ $title ?? 'Bảng điều khiển' }} - Tuấn Code Claud Admin</title>
+    <title>{{ $title ?? 'Bảng điều khiển' }} - Tuấn Code Cloud Admin</title>
     <link rel="icon" href="{{ asset(\App\Models\Setting::get('media_site_favicon', 'favicon.ico')) }}">
     {{-- Bootstrap 5 + Tabler Icons (CDN, không dùng npm) --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
@@ -198,8 +198,9 @@
     <aside id="sidebar" class="sidebar">
         <div class="logo-area">
             <a href="{{ route('admin.dashboard') }}" class="d-inline-flex align-items-center text-decoration-none">
-                <span style="font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.2rem; background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 1px;">
-                    Tuấn Code Claud
+                <span
+                    style="font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.2rem; background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 1px;">
+                    Tuấn Code Cloud
                 </span>
             </a>
         </div>
@@ -319,7 +320,7 @@
             {{ $slot }}
 
             <footer class="text-center py-3 mt-4 text-muted small border-top">
-                &copy; {{ date('Y') }} Trang quản trị Tuấn Code Claud
+                &copy; {{ date('Y') }} Trang quản trị Tuấn Code Cloud
             </footer>
         </div>
     </main>

@@ -4,8 +4,9 @@
             <div class="col-6 col-xl-2">
                 <h1 class="mb-0 site-logo">
                     <a href="{{ route('home') }}" style="text-decoration: none;">
-                        <span style="font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.5rem; background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 1px;">
-                            Tuấn Code Claud
+                        <span
+                            style="font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 1.5rem; background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 1px;">
+                            Tuấn Code Cloud
                         </span>
                     </a>
                 </h1>
