@@ -61,8 +61,8 @@
                         <div class="pricingTable blue">
                             <div class="pricingTable-header">
                                 <div class="price-value">
-                                    <span class="currency">$</span>
-                                    <span class="amount">{{ $plan->price }}</span>
+                                    <span class="amount">{{ number_format($plan->price, 0, ',', '.') }}</span>
+                                    <span class="currency">đ</span>
                                     <span class="duration">{{ $plan->duration }}</span>
                                 </div>
                             </div>

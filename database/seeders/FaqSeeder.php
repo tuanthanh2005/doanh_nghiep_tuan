@@ -10,18 +10,16 @@ class FaqSeeder extends Seeder
     public function run(): void
     {
         $faqs = [
-            // Development
-            ['question' => 'What is Design?',                       'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'development', 'order' => 1],
-            ['question' => 'What are the best Web Design Company?', 'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'development', 'order' => 2],
-            ['question' => 'How to become a web developer?',        'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'development', 'order' => 3],
-            ['question' => 'What is the best platform for work?',   'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'development', 'order' => 4],
-            // Design
-            ['question' => 'How to as a web developer?',            'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'design', 'order' => 1],
-            ['question' => 'What are the best Design tools?',       'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'design', 'order' => 2],
-            ['question' => 'What is the best platform for design?', 'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'design', 'order' => 3],
-            // Compatibility
-            ['question' => 'What browsers are supported?',          'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'compatibility', 'order' => 1],
-            ['question' => 'Is it mobile responsive?',              'answer' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'category' => 'compatibility', 'order' => 2],
+            // Phát triển
+            ['question' => 'Thiết kế website là gì?',                       'answer' => 'Thiết kế website là quá trình xây dựng giao diện và cấu trúc cho trang web nhằm tối ưu hóa trải nghiệm người dùng.', 'category' => 'phát triển', 'order' => 1],
+            ['question' => 'Công ty thiết kế web nào tốt nhất?',             'answer' => 'Tuấn Code Cloud tự hào là đơn vị cung cấp giải pháp web chuyên nghiệp và tối ưu nhất hiện nay.', 'category' => 'phát triển', 'order' => 2],
+            ['question' => 'Làm sao để bắt đầu kinh doanh online?',          'answer' => 'Bạn nên bắt đầu bằng việc xây dựng một website chuyên nghiệp và triển khai các chiến dịch marketing đa kênh.', 'category' => 'phát triển', 'order' => 3],
+            // Thiết kế
+            ['question' => 'Công cụ thiết kế nào phổ biến nhất?',           'answer' => 'Figma, Adobe XD và Canva là những công cụ hàng đầu giúp bạn tạo ra những thiết kế ấn tượng.', 'category' => 'thiết kế', 'order' => 1],
+            ['question' => 'Tại sao cần phải có giao diện UI/UX tốt?',        'answer' => 'Giao diện tốt giúp giữ chân người dùng lâu hơn và tăng tỷ lệ chuyển đổi đơn hàng cho doanh nghiệp.', 'category' => 'thiết kế', 'order' => 2],
+            // Hỗ trợ
+            ['question' => 'Website có hỗ trợ hiển thị trên điện thoại không?', 'answer' => 'Tất cả các website do chúng tôi thiết kế đều tương thích 100% với các thiết bị di động (Responsive).', 'category' => 'hỗ trợ', 'order' => 1],
+            ['question' => 'Thời gian hoàn thành một dự án là bao lâu?',     'answer' => 'Tùy vào quy mô dự án, thông thường từ 7 đến 14 ngày làm việc.', 'category' => 'hỗ trợ', 'order' => 2],
         ];
 
         foreach ($faqs as $faq) {
